@@ -1,0 +1,14 @@
+1. Install latest JDK from browser - https://www.oracle.com/in/java/technologies/downloads/#jdk25-windows
+
+2. Make sure you have set user and system variable correctly if not add java bin folder path in path variable
+3. Make sure to check java version on cmd by typing - java --version and javac --version
+
+
+step by step process of adding environment variables correctly if any error occur in vs code powershell
+
+1. open cmd and run "where java" to get exact location of where java is located in your pc
+2. you will see something like this "C:\Program Files\Java\jdk-21\bin\java.exe"
+3. copy "C:\Program Files\Java\jdk-21\bin\java.exe"
+4. press window + R and search for sysdm.cpl and enter or directly open envioronment variables
+5. Under system Variables select Path ---> Edit  and click new and paste what you have copied from cmd.
+6. save and restart vs code 
